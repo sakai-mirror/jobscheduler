@@ -10,7 +10,7 @@
 	<classpathentry kind="var" path="MAVEN_REPO/quartz/jars/quartz-1.4.0.jar"/>
 	<classpathentry kind="var" path="MAVEN_REPO/commons-dbcp/jars/commons-dbcp-1.1.jar"/>
 	<classpathentry kind="var" path="MAVEN_REPO/commons-logging/jars/commons-logging-1.0.4.jar"/>
-	<classpathentry kind="src" path="/legacy-service"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/kernel"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/component-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/db-api"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
