@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>scheduler</name>
+	<name>jobscheduler</name>
 	<comment></comment>
 	<projects>
 		<project>sakai-javax</project>
