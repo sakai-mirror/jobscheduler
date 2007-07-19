@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="scheduler-api/src/java"/>
-	<classpathentry kind="src" path="scheduler-component-shared/src/java"/>
-	<classpathentry kind="src" path="scheduler-component/src/webapp/WEB-INF"/>
-	<classpathentry kind="src" path="scheduler-tool/src/java"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="var" path="MAVEN_REPO/jsf/jars/jsf-api-1.1.01.jar"/>
-	<classpathentry kind="var" path="MAVEN_REPO/jsf/jars/jsf-impl-1.1.01.jar"/>
-	<classpathentry kind="var" path="MAVEN_REPO/commons-dbcp/jars/commons-dbcp-1.1.jar"/>
-	<classpathentry kind="var" path="MAVEN_REPO/commons-logging/jars/commons-logging-1.0.4.jar"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/component-api"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/db-api"/>
-	<classpathentry kind="var" path="MAVEN_REPO/quartz/jars/quartz-1.5.2.jar"/>
-	<classpathentry kind="src" path="/util-api"/>
-	<classpathentry kind="output" path="bin"/>
+  <classpathentry kind="src" path="scheduler-api/src/java"/>
+  <classpathentry kind="src" path="scheduler-component-shared/src/java"/>
+  <classpathentry kind="src" path="scheduler-component/src/webapp/WEB-INF"/>
+  <classpathentry kind="src" path="scheduler-tool/src/java"/>
+  <classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/jsf/jsf-api/1.1.01/jsf-api-1.1.01.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jsf/jsf-impl/1.1.01/jsf-impl-1.1.01.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-dbcp/commons-dbcp/1.1/commons-dbcp-1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar"/>
+  <classpathentry combineaccessrules="false" kind="src" path="/component-api"/>
+  <classpathentry combineaccessrules="false" kind="src" path="/db-api"/>
+  <classpathentry kind="var" path="M2_REPO/quartz/quartz/1.5.2/quartz-1.5.2.jar"/>
+  <classpathentry kind="src" path="/util-api"/>
+  <classpathentry kind="output" path="bin"/>
 </classpath>
