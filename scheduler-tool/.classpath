@@ -14,13 +14,13 @@
   <classpathentry kind="var" path="M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar"/>
   <classpathentry kind="var" path="M2_REPO/quartz/quartz/1.5.2/quartz-1.5.2.jar"/>
   <classpathentry kind="src" path="/sakai-comp-shared-scheduler"/>
-  <classpathentry kind="var" path="M2_REPO/org/sakaiproject/kernel/sakai-component-manager/1.0.6/sakai-component-manager-1.0.6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/sakaiproject/kernel/sakai-component-manager/1.0.7/sakai-component-manager-1.0.7.jar"/>
   <classpathentry kind="src" path="/sakai-jsf-app"/>
   <classpathentry kind="src" path="/sakai-jsf-tool"/>
   <classpathentry kind="src" path="/sakai-jsf-widgets"/>
   <classpathentry kind="src" path="/sakai-jsf-widgets-sun"/>
-  <classpathentry kind="var" path="M2_REPO/org/sakaiproject/kernel/sakai-kernel-api/1.0.6/sakai-kernel-api-1.0.6.jar"/>
-  <classpathentry kind="var" path="M2_REPO/org/sakaiproject/kernel/sakai-kernel-util/1.0.6/sakai-kernel-util-1.0.6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/sakaiproject/kernel/sakai-kernel-api/1.0.7/sakai-kernel-api-1.0.7.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/sakaiproject/kernel/sakai-kernel-util/1.0.7/sakai-kernel-util-1.0.7.jar"/>
   <classpathentry kind="src" path="/sakai-scheduler-api"/>
   <classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar"/>
   <classpathentry kind="var" path="M2_REPO/taglibs/standard/1.0.4/standard-1.0.4.jar"/>
