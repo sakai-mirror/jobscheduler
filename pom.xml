@@ -26,7 +26,6 @@
         <module>scheduler-component</module>
         <module>scheduler-component-shared</module>
         <module>scheduler-tool</module>
-        <!-- <module>scheduler-shared-deploy</module> -->
     </modules>
 
     <pluginRepositories>
@@ -93,9 +92,9 @@
     </repositories>
 
     <scm>
-        <connection>scm:svn:https://source.sakaiproject.org/svn/sakai-mock/branches/scheduler-2.7.x</connection>
-        <developerConnection>scm:svn:https://source.sakaiproject.org/svn/sakai-mock/branches/scheduler-2.7.x</developerConnection>
-        <url>https://source.sakaiproject.org/svn/sakai-mock/branches/scheduler-2.7.x</url>
+        <connection>scm:svn:https://source.sakaiproject.org/svn/jobscheduler/branches/scheduler-2.7.x</connection>
+        <developerConnection>scm:svn:https://source.sakaiproject.org/svn/jobscheduler/branches/scheduler-2.7.x</developerConnection>
+        <url>https://source.sakaiproject.org/svn/jobscheduler/branches/scheduler-2.7.x</url>
     </scm>
 
     <dependencyManagement>
