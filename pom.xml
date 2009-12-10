@@ -17,7 +17,7 @@
 
     <properties>
         <sakai.jsf.version>2.7.0-M1</sakai.jsf.version>
-        <url.localsite>scp://source.sakaiproject.org/var/www/html/release/scheduler/${project.version}</url.localsite>
+        <url.localsite>scp://source.sakaiproject.org/var/www/html/release/jobscheduler/${project.version}</url.localsite>
     </properties>
 
     <modules>
@@ -92,9 +92,9 @@
     </repositories>
 
     <scm>
-        <connection>scm:svn:https://source.sakaiproject.org/svn/jobscheduler/branches/scheduler-2.7.x</connection>
-        <developerConnection>scm:svn:https://source.sakaiproject.org/svn/jobscheduler/branches/scheduler-2.7.x</developerConnection>
-        <url>https://source.sakaiproject.org/svn/jobscheduler/branches/scheduler-2.7.x</url>
+        <connection>scm:svn:https://source.sakaiproject.org/svn/jobscheduler/branches/jobscheduler-2.7.x</connection>
+        <developerConnection>scm:svn:https://source.sakaiproject.org/svn/jobscheduler/branches/jobscheduler-2.7.x</developerConnection>
+        <url>https://source.sakaiproject.org/svn/jobscheduler/branches/jobscheduler-2.7.x</url>
     </scm>
 
     <dependencyManagement>
