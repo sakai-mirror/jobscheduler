@@ -46,7 +46,7 @@
         mechanism that would be easier to maintain than this approach.  Perhaps scheduler should be
         migrated to the kernel.  A. Whyte, 9 Dec. 2009  -->
         <dependency>
-            <groupId>quartz</groupId>
+            <groupId>org.opensymphony.quartz</groupId>
             <artifactId>quartz</artifactId>
             <scope>compile</scope>
             <type>jar</type>
