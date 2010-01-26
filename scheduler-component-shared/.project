@@ -1,0 +1,19 @@
+<projectDescription>
+  <name>sakai-comp-shared-scheduler</name>
+  <comment/>
+  <projects>
+    <project>sakai-component</project>
+    <project>sakai-component-api</project>
+    <project>sakai-db-api</project>
+    <project>sakai-scheduler-api</project>
+    <project>sakai-util-api</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>
