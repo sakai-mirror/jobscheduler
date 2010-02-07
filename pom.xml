@@ -91,9 +91,9 @@
     </repositories>
 
     <scm>
-        <connection>scm:svn:https://source.sakaiproject.org/svn/jobscheduler/branches/Jobscheduler-2.7.x</connection>
-        <developerConnection>scm:svn:https://source.sakaiproject.org/svn/jobscheduler/branches/Jobscheduler-2.7.x</developerConnection>
-        <url>https://source.sakaiproject.org/svn/jobscheduler/branches/Jobscheduler-2.7.x</url>
+        <connection>scm:svn:https://source.sakaiproject.org/svn/jobscheduler/branches/jobscheduler-2.7.x</connection>
+        <developerConnection>scm:svn:https://source.sakaiproject.org/svn/jobscheduler/branches/jobscheduler-2.7.x</developerConnection>
+        <url>https://source.sakaiproject.org/svn/jobscheduler/branches/jobscheduler-2.7.x</url>
     </scm>
 
     <dependencyManagement>
