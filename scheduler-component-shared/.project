@@ -1,8 +1,8 @@
 <projectDescription>
-  <name>sakai-comp-shared-scheduler</name>
+  <name>scheduler-component-shared</name>
   <comment/>
   <projects>
-    <project>sakai-scheduler-api</project>
+    <project>scheduler-api</project>
   </projects>
   <buildSpec>
     <buildCommand>

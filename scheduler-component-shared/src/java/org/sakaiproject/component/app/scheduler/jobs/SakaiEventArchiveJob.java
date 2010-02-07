@@ -1,13 +1,9 @@
 package org.sakaiproject.component.app.scheduler.jobs;
 
 import java.sql.Connection;
-import java.sql.Date;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.sql.Timestamp;
-import java.util.Calendar;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -21,13 +17,11 @@ public class SakaiEventArchiveJob implements Job {
 	
 	   private static final Log LOG = LogFactory.getLog(SakaiEventArchiveJob.class);
 
-	   // default is to move any events older than 24 hours
-	   private static final boolean ARCHIVE_ENABLED = true;
 	   private static final String DEFAULT_ARCHIVE_LENGTH = "86400000";
 	   
 		public void execute(JobExecutionContext arg0) throws JobExecutionException {
 		
-			boolean archiveEnabled = ServerConfigurationService.getBoolean("scheduler.event.archive.enabled", ARCHIVE_ENABLED);
+			
 			
 			long archiveLength = Long.parseLong(
 					ServerConfigurationService.getString("scheduler.event.archive.length", DEFAULT_ARCHIVE_LENGTH));
