@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.sakaiproject.purepoms</groupId>
         <artifactId>sakai-standard-tool</artifactId>
-        <version>2.7.0-build04</version>
+        <version>2.7.1</version>
     </parent>
 
     <name>Sakai Job Scheduler Project (base pom)</name>
@@ -15,7 +15,6 @@
     <packaging>pom</packaging>
 
     <properties>
-        <sakai.jsf.version>2.7.0-M1</sakai.jsf.version>
         <url.localsite>scp://source.sakaiproject.org/var/www/html/release/scheduler/${project.version}</url.localsite>
     </properties>
 
@@ -113,17 +112,17 @@
             <dependency>
                 <groupId>org.sakaiproject.jsf</groupId>
                 <artifactId>jsf-tool</artifactId>
-                <version>${sakai.jsf.version}</version>
+                <version>[2.7.0,2.8.0)</version>
             </dependency>
             <dependency>
                 <groupId>org.sakaiproject.jsf</groupId>
                 <artifactId>jsf-app</artifactId>
-                <version>${sakai.jsf.version}</version>
+                <version>[2.7.0,2.8.0)</version>
             </dependency>
             <dependency>
                 <groupId>org.sakaiproject.jsf</groupId>
                 <artifactId>jsf-widgets-sun-depend</artifactId>
-                <version>${sakai.jsf.version}</version>
+                <version>[2.7.0,2.8.0)</version>
                 <type>pom</type>
             </dependency>
             <!-- scheduler-assembly deploys quartz to shared. -->
