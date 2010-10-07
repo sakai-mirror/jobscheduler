@@ -1,10 +1,7 @@
 <projectDescription>
   <name>scheduler-tool</name>
-  <comment/>
-  <projects>
-    <project>scheduler-api</project>
-    <project>scheduler-component-shared</project>
-  </projects>
+  <comment>NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects/>
   <buildSpec>
     <buildCommand>
       <name>org.eclipse.jdt.core.javabuilder</name>
