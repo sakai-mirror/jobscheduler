@@ -15,6 +15,7 @@
     <packaging>pom</packaging>
 
     <properties>
+        <sakai.jsf.version>2.7.10</sakai.jsf.version>
         <url.localsite>scp://source.sakaiproject.org/var/www/html/release/scheduler/${project.version}</url.localsite>
     </properties>
 
