@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.sakaiproject.purepoms</groupId>
         <artifactId>sakai-standard-tool</artifactId>
-        <version>2.7.12</version>
+        <version>2.7.13</version>
     </parent>
 
     <name>Sakai Job Scheduler Project (base pom)</name>
@@ -15,7 +15,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <sakai.jsf.version>2.7.11</sakai.jsf.version>
+        <sakai.jsf.version>2.7.12</sakai.jsf.version>
         <url.localsite>scp://source.sakaiproject.org/var/www/html/release/scheduler/${project.version}</url.localsite>
     </properties>
 
