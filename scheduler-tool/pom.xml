@@ -22,10 +22,12 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>scheduler-api</artifactId>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>scheduler-component-shared</artifactId>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject.kernel</groupId>
