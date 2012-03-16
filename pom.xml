@@ -55,14 +55,6 @@
         <url>https://source.sakaiproject.org/svn/jobscheduler/branches/jobscheduler-2.9.x</url>
     </scm>
     
-    <distributionManagement>
-        <site>
-            <id>sakai-site</id>
-            <name>Sakai release Site</name>
-            <url>scpexe://source.sakaiproject.org/var/www/html/release/scheduler/${project.version}</url>
-        </site>
-    </distributionManagement>
-
     <reporting>
         <plugins>
             <plugin>
