@@ -16,7 +16,6 @@
 
     <properties>
         <sakai.quartz.version>1.6.6</sakai.quartz.version>
-        <url.localsite>scp://source.sakaiproject.org/var/www/html/release/scheduler/${project.version}</url.localsite>
         <sakai.jsf.version>2.8.3</sakai.jsf.version>
     </properties>
 
@@ -123,6 +122,14 @@
         <developerConnection>scm:svn:https://source.sakaiproject.org/svn/jobscheduler/branches/jobscheduler-2.8.x</developerConnection>
         <url>https://source.sakaiproject.org/svn/jobscheduler/branches/jobscheduler-2.8.x</url>
     </scm>
+    
+    <distributionManagement>
+		<site>
+			<id>sakai-site</id>
+			<name>Sakai release Site</name>
+			<url>scpexe://source.sakaiproject.org/var/www/html/release/scheduler/${project.version}</url>
+		</site>
+	</distributionManagement>
 
     <dependencyManagement>
         <dependencies>
